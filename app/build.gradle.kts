@@ -21,6 +21,10 @@ dependencies {
     // bitcoindevkit
     implementation("org.bitcoindevkit:bdk:0.0.1-SNAPSHOT")
 
+    // logger
+    implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation("ch.qos.logback:logback-core:1.2.3")
+
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 

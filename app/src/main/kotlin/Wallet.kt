@@ -1,10 +1,15 @@
 package com.example.bdkjvm
 
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
+
 import org.bitcoindevkit.bdk.ElectrumConfig
 import org.bitcoindevkit.bdk.MemoryConfig
 import org.bitcoindevkit.bdk.Wallet
 
 object Wallet {
+
+    val log: Logger = LoggerFactory.getLogger(Wallet::class.java)
 
     val desc =
         "wpkh([c258d2e4/84h/1h/0h]tpubDDYkZojQFQjht8Tm4jsS3iuEmKjTiEGjG6KnuFNKKJb5A6ZUCUZKdvLdSDWofKi4ToRCwb9poe1XdqfUnP4jaJjCB2Zwv11ZLgSbnZSNecE/0/*)"
