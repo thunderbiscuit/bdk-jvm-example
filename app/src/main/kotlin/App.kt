@@ -1,5 +1,6 @@
 package com.example.bdkjvm
 
 fun main() {
-    println("Hello, bitcoindevkit!")
+    printLogo()
+    print("1st address".boldYellow())
 }
