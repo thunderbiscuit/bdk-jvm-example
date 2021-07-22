@@ -19,7 +19,7 @@ dependencies {
     implementation("com.google.guava:guava:30.0-jre")
 
     // bitcoindevkit
-    implementation("org.bitcoindevkit:bdk:0.0.1-SNAPSHOT")
+    implementation("org.bitcoindevkit.bdkjni:bdk-jvm:0.2.1-dev")
 
     // logger
     implementation("ch.qos.logback:logback-classic:1.2.3")
